@@ -1,9 +1,13 @@
-import Image from "next/image"
+import {HomeIcon} from "@heroicons/react/outline";
+import Image from "next/image";
+import HeaderItem from "./HeaderItem";
 
 function Header() {
     return (
         <header className=''>
-            <h1>This is a header</h1>
+            <div>
+                <HeaderItem title='HOME' Icon={HomeIcon}/>
+            </div>
             <Image
                 className="object-contain" 
                 src='http://links.papareact.com/ua6'
