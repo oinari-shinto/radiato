@@ -7,11 +7,11 @@ function Header() {
         <header className="flex flex-col sm:flex-row m-5 justify-between items-center h-auto">
             <div className="flex flex-grow justify-evenly max-w-2xl">
                 <HeaderItem title='HOME' Icon={HomeIcon}/>
-                <HeaderItem title='MODEL' Icon={LightningBoltIcon}/>
+                <HeaderItem title='Модели' Icon={LightningBoltIcon}/>
                 <HeaderItem title='О Нас' Icon={BadgeCheckIcon}/>
-                <HeaderItem title='SEARCH' Icon={SearchIcon}/>
-                <HeaderItem title='CONTACT' Icon={MapIcon}/>
-                <HeaderItem title='ACCOUNT' Icon={UserIcon}/>
+                <HeaderItem title='Поиск' Icon={SearchIcon}/>
+                <HeaderItem title='Контакты' Icon={MapIcon}/>
+                <HeaderItem title='Кабинет' Icon={UserIcon}/>
             </div>
             <Image
                 className="object-contain" 
