@@ -13,5 +13,10 @@ export default {
         title: "Чугунные",
         url: `/chugun/radiatori&api_key=${API_KEY}&language=en-US`,
     },
+    fetchContact: {
+        title: "Контакты",
+        url: `/chugun/radiatori&api_key=${API_KEY}&language=en-US`,
+    },
+    
     
 }
