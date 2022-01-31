@@ -15,7 +15,7 @@ export default {
     },
     fetchContact: {
         title: "Контакты",
-        url: `/chugun/radiatori&api_key=${API_KEY}&language=en-US`,
+        url: `/contact&api_key=${API_KEY}&language=en-US`,
     },
     
     
