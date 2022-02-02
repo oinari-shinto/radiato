@@ -17,6 +17,10 @@ export default {
         title: "Контакты",
         url: `/contact&api_key=${API_KEY}&language=en-US`,
     },
+    fetchData: {
+        title: "Реквизиты",
+        url: `/dataPage&api_key=${API_KEY}&language=en-US`,
+    },
     
     
 }
