@@ -21,6 +21,11 @@ export default {
         title: "Реквизиты",
         url: `/dataPage&api_key=${API_KEY}&language=en-US`,
     },
+    fetchData: {
+        title: "Прайс",
+        url: `/pricePage&api_key=${API_KEY}&language=en-US`,
+    },
+    
     
     
 }
