@@ -11,7 +11,7 @@ function Header() {
                 <HeaderItem title='О Нас' Icon={BadgeCheckIcon}/>
                 <HeaderItem title='Поиск' Icon={SearchIcon}/>
                 <HeaderItem title='Контакты' Icon={MapIcon}/>
-                <HeaderItem title='Кабинет' Icon={UserIcon}/>
+                <HeaderItem title='Реквизиты' Icon={UserIcon}/>
             </div>
             <Image
                 className="object-contain" 
