@@ -28,5 +28,5 @@ export default function Home() {
 export async function getServerSideProps(context) {
   const genre = context.query.genre;
 
-  
+  сonst request = await.fetch(``)
 }
