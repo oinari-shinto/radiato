@@ -5,7 +5,7 @@ import Nav from '../components/Nav'
 import Results from '../components/Results'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+export default function Home({ results }) {
   return (
     <div className={styles.container}>
       <Head>
@@ -17,7 +17,7 @@ export default function Home() {
       
       <Header />
       <Nav />
-      <Results />
+      <Results results={results}/>
 
       {/* Result */}
     </div>
@@ -28,5 +28,15 @@ export default function Home() {
 export async function getServerSideProps(context) {
   const genre = context.query.genre;
 
-  сonst request = await.fetch(``)
+  const request = await fetch(`
+  https://www.themoviedb.org/3${request[genre]?.url || 
+  request.fetchTrending.url
+}`
+).then(res => res.json());
+
+return {
+  props: {
+    results: request.results, 
+  }
+}
 }
